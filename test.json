@@ -1,0 +1,95 @@
+
+
+
+
+
+{
+   "predictions":[
+      "a screenshot of a website that says where remote teams get work done",
+      "a screenshot of a website that says ' where remote teams get work done '",
+      "a screenshot of a website called taskade where remote teams get work done"
+   ],
+   "deployedModelId":"6747203681382301696"
+}
+
+
+
+
+User input : what is on the top left corner of the image ?
+{
+    "predictions":[
+       "this one",
+       "taskade.com",
+       "taskade is better"
+    ],
+    "deployedModelId":"6747203681382301696"
+ }
+
+ "description":"Scotch",
+ "boundingPoly":{
+    "vertices":[
+       {
+          "x":129,
+          "y":219
+       },
+       {
+          "x":196,
+          "y":221
+       },
+       {
+          "x":195,
+          "y":239
+       },
+       {
+          "x":129,
+          "y":237
+       }
+    ]
+ }
+
+
+
+
+
+
+ chat bot response :
+ {
+    "predictions":[
+       {
+          "citationMetadata":[
+             {
+                "citations":[
+                   
+                ]
+             }
+          ],
+          "candidates":[
+             {
+                "content":" The second design is better because it is more visually appealing and easier to use. 
+                The use of color and imagery is more effective in conveying the message of the website, and the layout is more user-friendly. 
+                The first design is too cluttered and difficult to read, and the use of color is not as effective.",
+                "author":"bot"
+             }
+          ],
+          "safetyAttributes":[
+             {
+                "categories":[],
+                "blocked":false,
+                "scores":[]
+             }
+          ]
+       }
+    ],
+    "metadata":{
+       "tokenMetadata":{
+          "outputTokenCount":{
+             "totalBillableCharacters":254,
+             "totalTokens":63
+          },
+          "inputTokenCount":{
+             "totalBillableCharacters":1765,
+             "totalTokens":506
+          }
+       }
+    }
+ }

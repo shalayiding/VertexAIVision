@@ -182,7 +182,7 @@ def VertexAI_OCR(API_KEY,ENDPOINT_URL, PROJECT_ID, image_url):
 #     chat_response = chatbison(key.API_KEY,
 #                               f'https://us-central1-aiplatform.googleapis.com/v1/projects/{key.PROJECT_ID}/locations/us-central1/publishers/google/models/chat-bison:predict',
 #                               key.PROJECT_ID,
-#                               userinput, chat_history)
+#                               userinput, chat_history," this is context")
 #     print(chat_response)
 #     print("Bot:" + chat_response['predictions'][0]['candidates'][0]['content'])
 

@@ -43,9 +43,11 @@ def process():
                    apikey.PROJECT_ID,
                    image_url="https://gdoc.io/uploads/minimalist-menu-design-1-web-712x984.webp")
         
+        print("Current data format ======================================================================")
         print(imagecaption_bot)
         print(imageQA_bot)
-        print(imageOCR_bot)
+        
+        # print(imageOCR_bot)
         
         imagecaption_raw = imagecaption_bot
         imageQA_raw = imageQA_bot
